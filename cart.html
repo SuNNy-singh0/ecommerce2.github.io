@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeDeal - Get the Best Deal</title>
+    <script src="https://kit.fontawesome.com/799a70c90f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="images/header/logo.png" class="logo" alt=""></a>
+        <div>
+            <nav>
+                <span class="hamburger active" onclick="toggleMenu()">&#9776;</span>
+                <ul id="navbar">
+
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+                </ul>
+
+            </nav>
+        </div>
+    </section>
+    <section id="hero" class="ban">
+        <div class="left">
+            <h1>#CART</h1>
+            <h3>Apply coupon and get 60%off</h3>
+        </div>
+     
+    </section>
+<section id="cart">
+    <table width="100%">
+        <thead>
+           
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>product</td>
+                <td>price</td>
+                <td>quantity</td>
+                <td>subtotal</td>
+            </tr>
+        </thead>
+       
+        <tbody>
+            <tr id="row1">
+                <td onclick="remove1()"><i class="fa-regular fa-circle-xmark"></i></td>
+                <td><img src="images/Shop/product1.jpg" alt=""></td>
+                <td>Grey & white Shirt</td>
+                <td>499</td>
+                <td><input type="number"></td>
+                <td>499</td>
+            </tr>
+            <tr id="row2">
+                <td onclick="remove2()"><i class="fa-regular fa-circle-xmark"></i></td>
+                <td><img src="images/Shop/product3.jpg" alt=""></td>
+                <td>Black floral design gown</td>
+                <td>1299</td>
+                <td><input type="number"></td>
+                <td>1299</td>
+            </tr>
+            <tr id="row3">
+                <td onclick="remove3()"><i class="fa-regular fa-circle-xmark"></i></td>
+                <td><img src="images/Shop/product2.jpg" alt=""></td>
+                <td>Black shade jeans</td>
+                <td>899</td>
+                <td><input type="number"></td>
+                <td>899</td>
+            </tr>
+            <tr id="row4">
+                <td onclick="remove4()"><i class="fa-regular fa-circle-xmark"></i></td>
+                <td><img src="images/Shop/product4.jpg" alt=""></td>
+                <td>white Anarkali suit</td>
+                <td>999</td>
+                <td><input type="number"></td>
+                <td>999</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<footer id="foot">
+    <div class="follow col1">
+        <img src="images/header/logo.png" alt="" class="logo1">
+        <h2>Contact</h2>
+        <p><strong>Address:</strong> 758 Block D , Industrial Area , East Delhi </p>
+        <p><strong>Phone Number:</strong>+91 7834562290, 0123-4456789 </p>
+        <p><strong>Hours:</strong>8:00 Am - 7:00 Pm</p>
+        <div class="followbutton">
+            <h2>follow Us</h2>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div>
+    <div class="follow col2">
+        <h2>About</h2>
+        <a href="#">About us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and condition</a>
+        <a href="#">Delivery Imformation</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="follow col3">
+        <h2>My Account</h2>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My order</a>
+        <a href="#">Hello</a>
+    </div>
+    <div class="follow install col4">
+        <h2>Install App</h2>
+        <p>From App Store and play Store</p>
+        <img src="images/features/download-on-the-app-store-get-it-on-google-play-button1710.jpg" alt="" class="app">
+        <div class="secure">
+        <p>Secure Payment</p>
+        <img src="images/features/images.png" alt="" id="app">
+    </div>
+    </div>
+    
+</footer>
+<div class="copy">
+    <p>&copy;  2023 Ecommerce website Template</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

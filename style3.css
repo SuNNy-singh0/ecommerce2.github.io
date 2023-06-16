@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 35%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    background-color: #d7f9f8;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+#navbar li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: blueviolet;
+}
+
+.hamburger{
+    display: none;
+}
+#hero {
+    background-image: url(images/Shop/pexels-karolina-grabowska-5632371.jpg);
+    background-size: cover;
+    background-position: 20% 70%;
+    padding: 120px 20px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+
+}
+.left {
+    font-size: 1.5rem;
+    text-align: left;
+    font-family:   'Mukta', sans-serif;
+    color: black;
+}
+
+.left h1 {
+    color: blueviolet;
+}
+
+.left button {
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 10%;
+    font-weight: 600;
+}
+#cart {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#cart table thead{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+   color: green;
+   font-weight: 700;
+  line-height: 3;
+  border: 2px solid gray;
+  border-left: none;
+  border-right: none;
+ }
+#cart table tbody td img{
+    width: 32%;
+}
+#cart table tbody td i{
+    cursor: pointer;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.logo1 {
+    width: 50%;
+}
+
+.app {
+    width: 90%;
+}
+
+#app {
+    width: 80%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.followbutton i {
+    font-size: 2rem;
+    color: gray;
+    margin-left: 20px;
+}
+
+.col1 {
+    width: 34%;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.col2 {
+    width: 25%;
+    line-height: 2;
+    font-size: 1.2rem;
+    color: darkblue;
+    font-family: 'Mukta', sans-serif;
+}
+
+.col2 a {
+    text-decoration: none;
+    color: green;
+}
+
+.col3 {
+    width: 25%;
+    line-height: 2;
+    font-size: 1.2rem;
+    color: darkblue;
+    font-family: 'Mukta', sans-serif;
+}
+
+.col3 a {
+    text-decoration: none;
+    color: green;
+}
+
+.col4 {
+    width: 15%;
+    font-size: 1.2rem;
+    color: darkblue;
+    font-family: 'Mukta', sans-serif;
+}
+
+.copy {
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    font-size: 1.3rem;
+    padding: 15px 0px;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+}
+
+#cart table td:nth-child(5) input{
+width: 40%;
+height: 40px;
+text-align: center;
+}
+
+@media only screen and (max-width : 600px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    #header {
+        align-items: normal;
+        width: 60%;
+    }
+
+    #navbar {
+        display: none;
+        margin-right: 20%;
+    }
+
+    #header a {
+        margin-left: -20%;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+        float: right;
+    }
+
+    #navbar.active {
+        display: flex;
+        flex-direction: column;
+        background-color: #d7f9f8;
+        padding: 20px;
+        margin-right: 100%;
+    }
+
+    #navbar.active li {
+        padding: 10px 0;
+    }
+
+    #navbar.active li a {
+        font-size: 1rem;
+    }
+    #hero {
+        padding: 28px 0px;
+        margin-right: -40px;
+        margin-bottom: -10px;
+    }
+
+    .left {
+        font-size: 10px;
+        margin-left: 5%;
+    }
+    .left button{
+        padding: 6px 9px;
+        margin-top: 12px;
+        margin-left: 6px;
+    }
+    #cart {
+        margin-top: 5%;
+    }
+    #cart table thead{
+        font-size: 12px;
+        
+    }
+    #cart table tr{
+        margin-bottom: 50px;
+    }
+    #cart table td:nth-child(5) input{
+        width: 30%;
+        height: 16px;
+        text-align: center;
+        }
+        #cart table{
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        .logo1{
+            width: 100%;
+        }
+        .col1{
+            width: 55%;
+            font-size: 15px;
+        }
+        .col2{
+            width: 40%;
+            font-weight: 400;
+        }
+        .col3{
+            width: 40%;
+        }
+        .col4{
+            width: 55%;
+        }
+        .app{
+            width: 80%;
+        }
+       .secure{
+        display: none;
+       }
+}
+
